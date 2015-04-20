@@ -289,7 +289,11 @@ header .slogan {
 #content>dt {
 	z-index:5;
 	width:59px;
-	background: #FFFFFF;
+	background: #3b5998;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
 }
 #content>dd {
 	width:680px;
@@ -300,44 +304,56 @@ header .slogan {
 #content>dt a {
 	width:59px;
 	height:459px;
-	background: red;
+	background: #dfe3ee;
 	display:block;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
 }
 #content>.dt1 {
-	background-position:0 0;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	float: left;
+	text-align: center;
+
 }
+
 #content>.dt1 a {
-	background-position:0 -459px;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	float: left;
+	text-align: center;
+
 }
+
+#content>.dt1 a span{
+	margin-top: 20px;
+}
+
 #content>.dt2 {
-	background-position:-60px 0;
 }
 #content>.dt2 a {
-	background-position:-60px -459px;
 }
 #content>.dt3 {
-	background-position:-120px 0;
 }
 #content>.dt3 a {
-	background-position:-120px -459px;
 }
 #content>.dt4 {
-	background-position:-180px 0;
 }
 #content>.dt4 a {
-	background-position:-180px -459px;
 }
 #content>.dt5 {
-	background-position:-240px 0;
 }
 #content>.dt5 a {
-	background-position:-240px -459px;
 }
 #content>.dt6 {
-	background-position:-360px 0;
 }
 #content>.dt6 a {
-	background-position:-360px -459px;
 }
 
 #content .inner {
